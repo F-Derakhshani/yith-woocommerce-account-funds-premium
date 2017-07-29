@@ -1,0 +1,1 @@
+jQuery(document).ready(function(e){e(".ywf_message_amount.ywf_show").on("click","a.ywf_show_form",function(o){o.preventDefault(),e(".ywf_message_amount").removeClass("ywf_show"),e(".ywf_amount_input_container").slideDown().removeClass("ywf_hide")})});

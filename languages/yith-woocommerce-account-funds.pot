@@ -1,0 +1,915 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Account Funds\n"
+"POT-Creation-Date: 2016-08-25 12:32+0200\n"
+"PO-Revision-Date: 2016-03-25 16:51+0100\n"
+"Last-Translator: \n"
+"Language-Team: Yithemes <plugins@yithemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;_ngettext_noop:1,2;"
+"_n_nooop:1,2;_c,_nc:4c,1,2;_x:1,2c\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../class.yith-funds.php:148 ../class.yith-funds.php:190
+msgid "Settings"
+msgstr ""
+
+#: ../class.yith-funds.php:150
+msgid "Live demo"
+msgstr ""
+
+#: ../class.yith-funds.php:173
+msgid "Plugin documentation"
+msgstr ""
+
+#: ../class.yith-funds.php:191 ../plugin-options/email-settings-options.php:30
+msgid "Deposit funds - email settings"
+msgstr ""
+
+#: ../class.yith-funds.php:192
+msgid "Funds edited - email settings"
+msgstr ""
+
+#: ../class.yith-funds.php:193
+#: ../plugin-options/endpoints-settings-options.php:11
+msgid "Funds endpoints"
+msgstr ""
+
+#: ../class.yith-funds.php:199 ../class.yith-funds.php:200
+msgid "Account Funds"
+msgstr ""
+
+#: ../class.yith-funds.php:229
+msgid "Your Inspiration Themes"
+msgstr ""
+
+#: ../class.yith-funds.php:233
+msgid "Plugin Documentation"
+msgstr ""
+
+#: ../class.yith-funds.php:237
+msgid "Live Demo"
+msgstr ""
+
+#: ../class.yith-funds.php:241
+msgid "Support platform"
+msgstr ""
+
+#: ../class.yith-funds.php:402
+#: ../includes/shortcodes/class.yith-ywf-shortcodes.php:159
+msgid "Place order"
+msgstr ""
+
+#: ../class.yith-funds.php:496 ../includes/class.yith-ywf-cart-process.php:393
+#: ../includes/class.yith-ywf-order.php:479
+#: ../includes/shortcodes/class.yith-ywf-shortcodes.php:178
+#: ../templates/view-deposit-history.php:17
+msgid "Deposit"
+msgstr ""
+
+#: ../class.yith-funds.php:522
+msgid "Show logs"
+msgstr ""
+
+#: ../class.yith-funds.php:527
+msgid "Edit funds"
+msgstr ""
+
+#: ../class.yith-funds.php:555
+msgid "Show more details"
+msgstr ""
+
+#: ../class.yith-funds.php:597
+msgid "You cannot refund an amount greater than user's total funds available."
+msgstr ""
+
+#: ../class.yith-funds.php:598
+msgid ""
+"Attention! User's current funds are less than the amount you are entering"
+msgstr ""
+
+#: ../class.yith-funds.php:644
+msgid "Recent history"
+msgstr ""
+
+#: ../class.yith-funds.php:644
+msgid "Show all"
+msgstr ""
+
+#: ../class.yith-funds.php:680
+msgid "User funds log"
+msgstr ""
+
+#: ../class.yith-funds.php:707
+#: ../plugin-options/endpoints-settings-options.php:17
+msgid "Make a deposit"
+msgstr ""
+
+#: ../class.yith-funds.php:710 ../class.yith-funds.php:711
+msgid "My Funds History"
+msgstr ""
+
+#: ../class.yith-funds.php:782
+msgid ""
+"Customize My Account Page is activated, you can change the YITH Account "
+"Funds Endpoints here"
+msgstr ""
+
+#: ../includes/class.wc-gateway-yith-funds.php:16
+msgid "YITH Funds"
+msgstr ""
+
+#: ../includes/class.wc-gateway-yith-funds.php:17
+msgid "Allow credit payments (use available funds)"
+msgstr ""
+
+#: ../includes/class.wc-gateway-yith-funds.php:33
+msgid "Available funds"
+msgstr ""
+
+#: ../includes/class.wc-gateway-yith-funds.php:47
+msgid ""
+"If you choose to pay through your available funds and funds are enough to "
+"cover the whole order amount, you can get a"
+msgstr ""
+
+#: ../includes/class.wc-gateway-yith-funds.php:47
+msgid "discount"
+msgstr ""
+
+#: ../includes/class.wc-gateway-yith-funds.php:64
+#: ../includes/class.wc-gateway-yith-funds.php:79
+msgid "Payment error:"
+msgstr ""
+
+#: ../includes/class.wc-gateway-yith-funds.php:64
+msgid "You must be logged in to use this payment method"
+msgstr ""
+
+#: ../includes/class.wc-gateway-yith-funds.php:79
+msgid "Insufficient account balance"
+msgstr ""
+
+#: ../includes/class.wc-gateway-yith-funds.php:111
+#, php-format
+msgid "Add %s funds to customer #%s"
+msgstr ""
+
+#: ../includes/class.wc-gateway-yith-funds.php:165
+#: ../plugin-options/email-advise-settings-options.php:37
+#: ../plugin-options/email-settings-options.php:36
+msgid "Enable/Disable"
+msgstr ""
+
+#: ../includes/class.wc-gateway-yith-funds.php:165
+msgid "Enable customers to use their funds as payment gateway"
+msgstr ""
+
+#: ../includes/class.wc-gateway-yith-funds.php:165
+#: ../includes/widgets/class.yith-ywf-make-a-deposit-widget.php:29
+#: ../includes/widgets/class.yith-ywf-view-user-funds-widget.php:32
+msgid "Title"
+msgstr ""
+
+#: ../includes/class.wc-gateway-yith-funds.php:165
+msgid "This controls the title that users sees during checkout."
+msgstr ""
+
+#: ../includes/class.wc-gateway-yith-funds.php:165
+msgid "Funds"
+msgstr ""
+
+#: ../includes/class.yith-ywf-cart-process.php:179
+msgid "Discount applied for having used account funds!"
+msgstr ""
+
+#: ../includes/class.yith-ywf-cart-process.php:194
+msgid "Discount"
+msgstr ""
+
+#: ../includes/class.yith-ywf-cart-process.php:232
+msgid "Your funds have been used successfully. Pay the rest now!"
+msgstr ""
+
+#: ../includes/class.yith-ywf-cart-process.php:307
+#: ../includes/class.yith-ywf-order.php:279
+#: ../includes/class.yith-ywf-order.php:410
+msgid "Funds used"
+msgstr ""
+
+#: ../includes/class.yith-ywf-cart-process.php:327
+msgid "User funds"
+msgstr ""
+
+#: ../includes/class.yith-ywf-cart-process.php:329
+msgid "[Remove]"
+msgstr ""
+
+#: ../includes/class.yith-ywf-cart-process.php:354
+msgid "Pay the order using your account funds and get a"
+msgstr ""
+
+#: ../includes/class.yith-ywf-cart-process.php:354
+msgid "discount on your cart"
+msgstr ""
+
+#: ../includes/class.yith-ywf-cart-process.php:394
+msgid "Deposit at least"
+msgstr ""
+
+#: ../includes/class.yith-ywf-cart-process.php:394
+msgid "to get the available discount"
+msgstr ""
+
+#: ../includes/class.yith-ywf-deposit-fund-checkout.php:51
+msgid "Enter a price"
+msgstr ""
+
+#: ../includes/class.yith-ywf-deposit-fund-checkout.php:61
+msgid "Minimum deposit amount is"
+msgstr ""
+
+#: ../includes/class.yith-ywf-deposit-fund-checkout.php:69
+msgid "Maximum deposit amount is"
+msgstr ""
+
+#: ../includes/class.yith-ywf-deposit-fund-checkout.php:99
+msgid "Invalid payment method."
+msgstr ""
+
+#: ../includes/class.yith-ywf-deposit-fund-checkout.php:191
+#: ../includes/class.yith-ywf-deposit-fund-checkout.php:202
+#: ../includes/class.yith-ywf-deposit-fund-checkout.php:204
+#: ../includes/class.yith-ywf-deposit-fund-checkout.php:231
+#, php-format
+msgid "Error %d: Unable to create order. Please try again."
+msgstr ""
+
+#: ../includes/class.yith-ywf-order.php:117
+#: ../includes/class.yith-ywf-order.php:214
+#: ../includes/class.yith-ywf-order.php:448
+#, php-format
+msgid "Removed %s funds from customer #%s account"
+msgstr ""
+
+#: ../includes/class.yith-ywf-order.php:151
+#: ../includes/class.yith-ywf-order.php:182
+#, php-format
+msgid "Added %s funds to customer #%s account"
+msgstr ""
+
+#: ../includes/class.yith-ywf-order.php:279
+msgid "Funds used by the customer to pay this order."
+msgstr ""
+
+#: ../includes/class.yith-ywf-order.php:338
+#, php-format
+msgid "(Includes %s)"
+msgstr ""
+
+#: ../includes/class.yith-ywf-order.php:557
+msgid "Deposit again"
+msgstr ""
+
+#: ../includes/class.yith-ywf-product-deposit.php:117
+msgid "User deposit"
+msgstr ""
+
+#: ../includes/class.yith-ywf-reports.php:35
+#: ../includes/class.yith-ywf-reports.php:38
+msgid "Deposits"
+msgstr ""
+
+#: ../includes/class.yith-ywf-reports.php:114
+#: ../includes/tables/class.yith-ywf-users-log-table.php:33
+#: ../templates/view-deposit-history.php:6
+msgid "Date"
+msgstr ""
+
+#: ../includes/class.yith-ywf-reports.php:117
+msgid "CSV export"
+msgstr ""
+
+#: ../includes/class.yith-ywf-reports.php:143
+msgid "Year"
+msgstr ""
+
+#: ../includes/class.yith-ywf-reports.php:144
+msgid "Last month"
+msgstr ""
+
+#: ../includes/class.yith-ywf-reports.php:145
+msgid "This month"
+msgstr ""
+
+#: ../includes/class.yith-ywf-reports.php:146
+msgid "Last 7 days"
+msgstr ""
+
+#: ../includes/compatibility/class.yith-funds-yith-pdf-invoice-compatibility.php:106
+msgid "It is not possible to create an invoice for deposit"
+msgstr ""
+
+#: ../includes/compatibility/class.yith-funds-yith-pdf-invoice-compatibility.php:180
+msgid "Discount for Funds Used"
+msgstr ""
+
+#: ../includes/compatibility/class.yith-funds-yith-pdf-invoice-compatibility.php:200
+msgid "Order paid through funds"
+msgstr ""
+
+#: ../includes/emails/class.yith-ywf-advise-customer-email.php:14
+msgid "Customer funds note"
+msgstr ""
+
+#: ../includes/emails/class.yith-ywf-advise-customer-email.php:15
+msgid ""
+"This email is sent to customers when the administrator changes the amount "
+"of their available funds"
+msgstr ""
+
+#: ../includes/emails/class.yith-ywf-advise-customer-email.php:142
+#: ../includes/emails/class.yith-ywf-customer-email.php:207
+msgid "HTML template"
+msgstr ""
+
+#: ../includes/emails/class.yith-ywf-advise-customer-email.php:143
+#: ../includes/emails/class.yith-ywf-customer-email.php:208
+msgid "Plain text template"
+msgstr ""
+
+#: ../includes/emails/class.yith-ywf-advise-customer-email.php:169
+#: ../includes/emails/class.yith-ywf-customer-email.php:233
+msgid "Delete template file"
+msgstr ""
+
+#: ../includes/emails/class.yith-ywf-advise-customer-email.php:172
+#: ../includes/emails/class.yith-ywf-customer-email.php:236
+#, php-format
+msgid ""
+"This template has been overridden by your theme and can be found in: <code>"
+"%s</code>."
+msgstr ""
+
+#: ../includes/emails/class.yith-ywf-advise-customer-email.php:190
+#: ../includes/emails/class.yith-ywf-customer-email.php:249
+msgid "Copy file to theme"
+msgstr ""
+
+#: ../includes/emails/class.yith-ywf-advise-customer-email.php:193
+#: ../includes/emails/class.yith-ywf-customer-email.php:252
+#, php-format
+msgid ""
+"To override and edit this email template copy <code>%s</code> into your "
+"theme folder: <code>%s</code>."
+msgstr ""
+
+#: ../includes/emails/class.yith-ywf-advise-customer-email.php:204
+#: ../includes/emails/class.yith-ywf-customer-email.php:261
+msgid "File was not found."
+msgstr ""
+
+#: ../includes/emails/class.yith-ywf-advise-customer-email.php:231
+#: ../includes/emails/class.yith-ywf-customer-email.php:288
+msgid "View template"
+msgstr ""
+
+#: ../includes/emails/class.yith-ywf-advise-customer-email.php:232
+#: ../includes/emails/class.yith-ywf-customer-email.php:289
+msgid "Hide template"
+msgstr ""
+
+#: ../includes/emails/class.yith-ywf-advise-customer-email.php:243
+#: ../includes/emails/class.yith-ywf-customer-email.php:300
+msgid "Are you sure you want to delete this template file?"
+msgstr ""
+
+#: ../includes/emails/class.yith-ywf-customer-email.php:20
+msgid "Funds email"
+msgstr ""
+
+#: ../includes/emails/class.yith-ywf-customer-email.php:21
+msgid ""
+"This is the email sent to customers by the admin through YITH WooCommerce "
+"Funds"
+msgstr ""
+
+#: ../includes/reports/class.yith-ywf-report-deposit-order.php:137
+#, php-format
+msgid "Average daily deposits: %s"
+msgstr ""
+
+#: ../includes/reports/class.yith-ywf-report-deposit-order.php:141
+#, php-format
+msgid "Average gross monthly sales: %s"
+msgstr ""
+
+#: ../includes/reports/class.yith-ywf-report-deposit-order.php:147
+#, php-format
+msgid "Gross sales in this period: %s"
+msgstr ""
+
+#: ../includes/reports/class.yith-ywf-report-deposit-order.php:148
+msgid "This is the sum of the order totals after any refunds."
+msgstr ""
+
+#: ../includes/reports/class.yith-ywf-report-deposit-order.php:162
+#, php-format
+msgid "%s deposits placed"
+msgstr ""
+
+#: ../includes/reports/class.yith-ywf-report-deposit-order.php:201
+msgid "Deposits placed"
+msgstr ""
+
+#: ../includes/reports/class.yith-ywf-report-deposit-order.php:211
+msgid "Deposit amount"
+msgstr ""
+
+#: ../includes/reports/class.yith-ywf-report-deposit-order.php:222
+msgid "Average net sales"
+msgstr ""
+
+#: ../includes/tables/class.yith-ywf-users-log-table.php:17
+msgctxt "yith-woocommerce-account-funds"
+msgid "user log"
+msgstr ""
+
+#: ../includes/tables/class.yith-ywf-users-log-table.php:18
+msgctxt "yith-woocommerce-account-funds"
+msgid "user logs"
+msgstr ""
+
+#: ../includes/tables/class.yith-ywf-users-log-table.php:29
+msgid "Username"
+msgstr ""
+
+#: ../includes/tables/class.yith-ywf-users-log-table.php:34
+#: ../templates/admin/user-log-table.php:74
+#: ../templates/view-deposit-history.php:6
+msgid "Description"
+msgstr ""
+
+#: ../includes/tables/class.yith-ywf-users-log-table.php:35
+msgid "Transaction"
+msgstr ""
+
+#: ../includes/tables/class.yith-ywf-users-log-table.php:85
+msgid "Funds used in order"
+msgstr ""
+
+#: ../includes/tables/class.yith-ywf-users-log-table.php:88
+msgid "Funds deposited through order"
+msgstr ""
+
+#: ../includes/tables/class.yith-ywf-users-log-table.php:91
+msgid "Funds restored for order"
+msgstr ""
+
+#: ../includes/tables/class.yith-ywf-users-log-table.php:94
+msgid "Funds refunded for order"
+msgstr ""
+
+#: ../includes/widgets/class.yith-ywf-make-a-deposit-widget.php:14
+msgid "YITH Account Funds: Make a deposit widget"
+msgstr ""
+
+#: ../includes/widgets/class.yith-ywf-make-a-deposit-widget.php:15
+msgid "Shows the form to let customers deposit funds"
+msgstr ""
+
+#: ../includes/widgets/class.yith-ywf-view-user-funds-widget.php:14
+msgid "YITH Account Funds: View user funds widget"
+msgstr ""
+
+#: ../includes/widgets/class.yith-ywf-view-user-funds-widget.php:15
+msgid "Shows customer's available funds"
+msgstr ""
+
+#: ../includes/widgets/class.yith-ywf-view-user-funds-widget.php:36
+msgid "Text alignment"
+msgstr ""
+
+#: ../includes/widgets/class.yith-ywf-view-user-funds-widget.php:38
+msgid "Left"
+msgstr ""
+
+#: ../includes/widgets/class.yith-ywf-view-user-funds-widget.php:39
+msgid "Center"
+msgstr ""
+
+#: ../includes/widgets/class.yith-ywf-view-user-funds-widget.php:40
+msgid "Right"
+msgstr ""
+
+#: ../includes/widgets/class.yith-ywf-view-user-funds-widget.php:44
+msgid "Font weight"
+msgstr ""
+
+#: ../includes/widgets/class.yith-ywf-view-user-funds-widget.php:46
+msgid "Normal"
+msgstr ""
+
+#: ../includes/widgets/class.yith-ywf-view-user-funds-widget.php:47
+msgid "Bold"
+msgstr ""
+
+#: ../init.php:37
+msgid ""
+"YITH WooCommerce Account Funds Premium is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+
+#: ../plugin-options/email-advise-settings-options.php:5
+msgid "The Administrator has changed your funds from"
+msgstr ""
+
+#: ../plugin-options/email-advise-settings-options.php:8
+#: ../plugin-options/email-settings-options.php:7
+msgid "Dear"
+msgstr ""
+
+#: ../plugin-options/email-advise-settings-options.php:9
+msgid "the administrator has changed your funds from"
+msgstr ""
+
+#: ../plugin-options/email-advise-settings-options.php:10
+msgid "to"
+msgstr ""
+
+#: ../plugin-options/email-advise-settings-options.php:11
+msgid "for the following reason"
+msgstr ""
+
+#: ../plugin-options/email-advise-settings-options.php:12
+#: ../plugin-options/email-settings-options.php:12
+msgid "Best regards"
+msgstr ""
+
+#: ../plugin-options/email-advise-settings-options.php:16
+#: ../plugin-options/email-settings-options.php:16
+msgid "You can use the following placeholders"
+msgstr ""
+
+#: ../plugin-options/email-advise-settings-options.php:17
+msgid "{site_title} replaced by site title"
+msgstr ""
+
+#: ../plugin-options/email-advise-settings-options.php:18
+msgid "{before_funds} replaced by user funds before admin adjustments"
+msgstr ""
+
+#: ../plugin-options/email-advise-settings-options.php:19
+msgid "{after_funds} replaced by user funds after admin adjustments"
+msgstr ""
+
+#: ../plugin-options/email-advise-settings-options.php:20
+#: ../plugin-options/email-settings-options.php:19
+msgid "{customer_email} replaced by customer's email address"
+msgstr ""
+
+#: ../plugin-options/email-advise-settings-options.php:21
+#: ../plugin-options/email-settings-options.php:20
+msgid "{customer_name} replaced by customer's name"
+msgstr ""
+
+#: ../plugin-options/email-advise-settings-options.php:22
+msgid "{log_date} replaced with adjustment date"
+msgstr ""
+
+#: ../plugin-options/email-advise-settings-options.php:23
+msgid "{change_reason} replaced by adjustment reason"
+msgstr ""
+
+#: ../plugin-options/email-advise-settings-options.php:32
+msgid "Changes applied to funds - email settings"
+msgstr ""
+
+#: ../plugin-options/email-advise-settings-options.php:44
+#: ../plugin-options/email-settings-options.php:43
+msgid "Email type"
+msgstr ""
+
+#: ../plugin-options/email-advise-settings-options.php:47
+#: ../plugin-options/email-settings-options.php:46
+msgid "HTML"
+msgstr ""
+
+#: ../plugin-options/email-advise-settings-options.php:48
+#: ../plugin-options/email-settings-options.php:47
+msgid "Plain text"
+msgstr ""
+
+#: ../plugin-options/email-advise-settings-options.php:56
+msgid "Email Subject"
+msgstr ""
+
+#: ../plugin-options/email-advise-settings-options.php:60
+msgid "The Administrator has changed your funds from {log_date}"
+msgstr ""
+
+#: ../plugin-options/email-advise-settings-options.php:64
+msgid "Email sender name"
+msgstr ""
+
+#: ../plugin-options/email-advise-settings-options.php:72
+msgid "Email Content"
+msgstr ""
+
+#: ../plugin-options/email-settings-options.php:5
+msgid "You are running out of funds!"
+msgstr ""
+
+#: ../plugin-options/email-settings-options.php:8
+msgid "you are going to run out of funds on"
+msgstr ""
+
+#: ../plugin-options/email-settings-options.php:9
+msgid "your available funds:"
+msgstr ""
+
+#: ../plugin-options/email-settings-options.php:10
+msgid "Top up your account at"
+msgstr ""
+
+#: ../plugin-options/email-settings-options.php:11
+msgid ""
+"to be able to make new orders quickly and forget about card numbers and "
+"codes."
+msgstr ""
+
+#: ../plugin-options/email-settings-options.php:17
+msgid "{site_title} replaced by website title"
+msgstr ""
+
+#: ../plugin-options/email-settings-options.php:18
+msgid "{user_funds} replaced by maximum recharge limit per transaction"
+msgstr ""
+
+#: ../plugin-options/email-settings-options.php:21
+msgid "{button_charging} replaced by \"Deposit now\" button"
+msgstr ""
+
+#: ../plugin-options/email-settings-options.php:56
+msgid "Email subject"
+msgstr ""
+
+#: ../plugin-options/email-settings-options.php:65
+msgid "Email sender"
+msgstr ""
+
+#: ../plugin-options/email-settings-options.php:73
+msgid "Email content"
+msgstr ""
+
+#: ../plugin-options/email-settings-options.php:82
+msgid "User funds threshold"
+msgstr ""
+
+#: ../plugin-options/email-settings-options.php:90
+msgid ""
+"Set a minimum threshold below which an email is sent to customers to invite "
+"them to deposit more funds"
+msgstr ""
+
+#: ../plugin-options/endpoints-settings-options.php:15
+msgid "\"Make a deposit\" endpoint"
+msgstr ""
+
+#: ../plugin-options/endpoints-settings-options.php:22
+msgid "Income/Expenditure History endpoint"
+msgstr ""
+
+#: ../plugin-options/endpoints-settings-options.php:24
+msgid "Income/Expenditure History"
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:9
+msgid "General settings"
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:14
+msgid "Minimum deposit amount"
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:22
+msgid "Set a minimum required amount for deposits"
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:27
+msgid "Maximum deposit amount"
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:35
+msgid ""
+"Set the maximum amount for each individual deposit. Leave it blank to make "
+"it unlimited."
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:40
+msgid "Funds product image"
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:58
+msgid "Enable discount"
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:61
+msgid "Apply a discount if customers use their funds to pay"
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:66
+msgid "Discount type"
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:68
+msgid "Fixed price"
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:68
+msgid "Percentage"
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:73
+msgid "Discount amount"
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:81
+msgid ""
+"Enter a value. Based on to the above selection, it will be calculated "
+"either as fixed amount or as percentage."
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:86
+msgid "Payment method"
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:87
+msgid ""
+"Select payment method for deposits. Leave this field empty if you want to "
+"allow all gateways enabled in WooCommerce"
+msgstr ""
+
+#: ../templates/admin/image-select.php:24
+msgid "Upload"
+msgstr ""
+
+#: ../templates/admin/image-select.php:24
+msgid "Select an image"
+msgstr ""
+
+#: ../templates/admin/user-log-table.php:40
+msgid "User funds edited successfully"
+msgstr ""
+
+#: ../templates/admin/user-log-table.php:51
+msgid "Edit funds for"
+msgstr ""
+
+#: ../templates/admin/user-log-table.php:66
+msgid "Current funds"
+msgstr ""
+
+#: ../templates/admin/user-log-table.php:70
+msgid "Edit user's funds!"
+msgstr ""
+
+#: ../templates/admin/user-log-table.php:77
+msgid "Enter a brief description"
+msgstr ""
+
+#: ../templates/admin/user-log-table.php:83
+msgid "Change user fund"
+msgstr ""
+
+#: ../templates/admin/user-log-table.php:84
+msgid "Return to log list"
+msgstr ""
+
+#: ../templates/admin/user-log-table.php:98
+msgid "User logs"
+msgstr ""
+
+#: ../templates/admin/user-log-table.php:117
+msgid "Edit user funds"
+msgstr ""
+
+#: ../templates/make-a-deposit-form.php:8 ../templates/make-a-deposit.php:47
+#: ../templates/make-a-deposit.php:55
+msgid "Enter amount"
+msgstr ""
+
+#: ../templates/make-a-deposit-form.php:13
+msgid "Deposit now"
+msgstr ""
+
+#: ../templates/make-a-deposit.php:38
+msgid "You are loading"
+msgstr ""
+
+#: ../templates/make-a-deposit.php:38
+msgid "Enter a different amount"
+msgstr ""
+
+#: ../templates/make-a-deposit.php:51
+msgid "Amount"
+msgstr ""
+
+#: ../templates/make-a-deposit.php:69
+msgid "Complete your profile"
+msgstr ""
+
+#: ../templates/make-a-deposit.php:70
+msgid ""
+"In order to make a new deposit, you must have completed your user profile. "
+"Complete it now!"
+msgstr ""
+
+#: ../templates/view-customer-fund.php:10
+msgid "Available funds:"
+msgstr ""
+
+#: ../templates/view-deposit-history.php:6
+msgid "Transactions"
+msgstr ""
+
+#: ../templates/view-deposit-history.php:18
+msgid "Payment"
+msgstr ""
+
+#: ../templates/view-deposit-history.php:19
+msgid "Funds restored"
+msgstr ""
+
+#: ../templates/view-deposit-history.php:20
+msgid "Funds refunded"
+msgstr ""
+
+#: ../templates/view-deposit-history.php:21
+msgid "Admin activity"
+msgstr ""
+
+#: ../templates/view-deposit-history.php:23
+msgid "Filter"
+msgstr ""
+
+#: ../templates/view-deposit-history.php:53
+msgctxt "hashtag before order number"
+msgid "#"
+msgstr ""
+
+#: ../templates/view-deposit-history.php:56
+msgid "Reason"
+msgstr ""
+
+#: ../templates/view-deposit-history.php:61
+#, php-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../templates/view-deposit-history.php:62
+msgid "Funds used to purchase"
+msgstr ""
+
+#: ../templates/view-deposit-history.php:62
+msgid "in order"
+msgstr ""
+
+#: ../templates/view-deposit-history.php:66
+msgid "Funds credited through order"
+msgstr ""
+
+#: ../templates/view-deposit-history.php:70
+msgid "Funds restored because order"
+msgstr ""
+
+#: ../templates/view-deposit-history.php:70
+msgid "switched to"
+msgstr ""
+
+#: ../templates/view-deposit-history.php:76
+msgid "Refunded credits in order"
+msgstr ""
+
+#: ../templates/view-deposit-history.php:104
+msgid "Your available funds"
+msgstr ""
+
+#: ../templates/view-deposit-history.php:116
+msgid "No deposit history for this user"
+msgstr ""
+
+#: ../templates/woocommerce/admin/reports/deposit-order.php:23
+msgid "Custom:"
+msgstr ""
